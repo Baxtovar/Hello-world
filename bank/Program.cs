@@ -6,7 +6,7 @@ double sumbefore = sum;
 for (int i = 1; i <= monthcount; i++)
 {
     double porsent = sum * 0.07;
-    sum +=porsent;
+    sum += porsent;
     Console.WriteLine($"{i} месяц-{sum}");
 
 }
